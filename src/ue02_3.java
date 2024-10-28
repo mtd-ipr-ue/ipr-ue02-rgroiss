@@ -1,7 +1,25 @@
 import libraries.Out;
+import libraries.In;
 
 public class ue02_3 {
     public static void main(String[] args) {
-        Out.println("Hello, World!");
+        int r = 4;
+        double hypotenuse = Math.sqrt(4*4+4*4);
+
+        double x;
+        double y;
+        double hypotenuseInput;
+
+        Out.print("X-Koordinate: ");
+        x = In.readDouble();
+        Out.print("Y-Koordinate: ");
+        y = In.readDouble();
+        hypotenuseInput = Math.sqrt(x*x + y*y);
+
+        if(hypotenuseInput >= 4 && x <= 4 && y <= 4){
+            Out.println("Punkt liegt innerhalb der grünen Fläche.");
+        }else{
+            Out.println("Punkt liegt außerhalb.");
+        }
     }
 }
