@@ -14,7 +14,7 @@ public class ue02_3 {
         y = In.readDouble();
         hypotenuseInput = Math.sqrt(x*x + y*y);
 
-        if(x >= 0 && y >= 0 && x <= r && y <= r && hypotenuseInput >= r){
+        if(x > 0 && y > 0 && x <= r && y <= r && hypotenuseInput >= r){
             Out.println("Punkt liegt innerhalb der grünen Fläche.");
         }else{
             Out.println("Punkt liegt außerhalb.");
