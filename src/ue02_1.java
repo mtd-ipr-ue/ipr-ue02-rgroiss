@@ -5,9 +5,9 @@ public class ue02_1 {
     public static void main(String[] args) {
         
         int max = 0;
-        int number1 = 0;
-        int number2 = 0;
-        int number3 = 0;
+        int number1;
+        int number2;
+        int number3;
 
         Out.print("Erste Zahl: ");
         number1 = In.readInt();
