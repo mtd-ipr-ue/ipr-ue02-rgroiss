@@ -4,8 +4,6 @@ import libraries.In;
 public class ue02_3 {
     public static void main(String[] args) {
         int r = 4;
-        //double hypotenuse = Math.sqrt(4*4+4*4);
-
         double x;
         double y;
         double hypotenuseInput;
